@@ -14,42 +14,18 @@ formularios y módulos por temática.
 Los módulos permiten agrupar funciones y procedimientos compartidos que
 no se encapsulan en clases. Entre los que aparecen en la raíz del
 repositorio destacan:
-| Columna 1 | Columna 2 | Columna 3 |
-|------------|------------|------------|
-| Dato 1     | Dato 2     | Dato 3     |
-| Dato 4     | Dato 5     | Dato 6     |
-
 
 |Módulo                                |Observaciones|
 |--------------------------------------| ------------|
 |  `ClavesEncriptacion.bas`            |Almacena claves o rutinas de encriptación utilizadas por el ERP para proteger datos sensibles.|
 |`ControlSstab.bas`                    |Proporciona funciones para manipular y personalizar controles tipo pestaña (`SSTab`) de los formularios.|
-
-  `CtesFunciones.bas`                  Define constantes de uso general y funciones utilitarias que se invocan 
-                                       desde varias partes del                                                 
-                                       programa.      
-
-  `ImpresoraFiscal.bas` y              Implementan la comunicación con impresoras fiscales (por ejemplo,       
-  `fiscalEPSON.bas`                    Epson), necesarias para emitir facturas electrónicas y                  
-                                       tickets.       
-
-  `ImpuestosRetenciones.bas`           Contienen las rutinas relacionadas con retenciones e impuestos          
-  `ImpuestosRetencionescopia.bas`   aplicables a facturas y                                                 
-                                       pagos.         
-
-  `JsonConverter.bas`                  Módulo de conversión de datos a y desde formato                         
-                                       JSON.          
-
-  `ReportesTrx.bas` y                  Encargados de generar reportes de transacciones y órdenes de            
-  `RptOrdenRecibo.bas`                 recibo.        
-
-  `SeleccionDirectorio.bas`            Proporciona diálogos para seleccionar carpetas dentro del sistema       
-                                       operativo.     
-
-  Otros módulos                        Existen otros módulos dispersos, como control de selección de           
-                                       impresora, gestión de retenciones y utilidades varias; muchos de ellos  
-                                       están asociados a formularios específicos (ej. `fiscalEPSON.bas`).      
-  -------------------------------------------------------------------------------------------------------------
+|  `CtesFunciones.bas`                 |Define constantes de uso general y funciones utilitarias que se invocan desde varias partes del     programa.|      
+|  `ImpresoraFiscal.bas` y  `fiscalEPSON.bas`|Implementan la comunicación con impresoras fiscales (por ejemplo, Epson), necesarias para emitir facturas electrónicas y tickets.|       
+|  `ImpuestosRetenciones.bas` `ImpuestosRetencionescopia.bas`|Contienen las rutinas relacionadas con retenciones e impuestos aplicables a facturas y pagos.|         
+| `JsonConverter.bas`                  |Módulo de conversión de datos a y desde formato JSON.|
+|  `ReportesTrx.bas` y `RptOrdenRecibo.bas`|Encargados de generar reportes de transacciones y órdenes de recibo.|        
+| `SeleccionDirectorio.bas`            |Proporciona diálogos para seleccionar carpetas dentro del sistema operativo.|
+| Otros módulos                        |Existen otros módulos dispersos, como control de selección de impresora, gestión de retenciones y utilidades varias; muchos de ellos están asociados a formularios específicos (ej. `fiscalEPSON.bas`).|
 
 ## Formularios del ERP (.frm)
 
