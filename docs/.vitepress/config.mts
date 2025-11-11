@@ -15,12 +15,12 @@ export default defineConfig({
       '/': [
         { text: 'Introducción', link: '/' },
         { text: 'Guía', items: [
-          { text: 'Instalación', link: '/guia/instalacion' },
-          { text: 'Uso', link: '/guia/uso' },
-		  { text: 'Módulos', link: '/guia/modulos' },
-		  { text: 'Base Datos', link: '/guia/bd' },
-		  { text: 'Lógica Negocio', link: '/guia/negocio' },
-		  { text: 'Clientes', link: '/guia/clientes' }
+          { text: 'Sistema Legado', link: '/guia/legado' },
+		      { text: 'Módulos', link: '/guia/modulos' },
+		      { text: 'Base Datos', link: '/guia/bd' },
+		      { text: 'Lógica Negocio', link: '/guia/negocio' },
+		      { text: 'Módulo Clientes', link: '/guia/clientes' },
+          { text: 'Propuesta de Migración', link: '/guia/migracion' },
         ] }
       ]
     },
