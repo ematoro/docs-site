@@ -33,14 +33,14 @@ npm run build
 ```
 
 ## Estructura principal
-- Entrada: [src/main.js](src/main.js)
-- App root: [src/App.vue](src/App.vue)
-- Rutas: [src/router.js](src/router.js)
-- Vistas: [src/views/ClientesView.vue](src/views/ClientesView.vue)
-- Componentes: [src/components/DomicilioPanel.vue](src/components/DomicilioPanel.vue), [src/components/HelloWorld.vue](src/components/HelloWorld.vue)
-- Servicios API: [src/services/clientesApi.js](src/services/clientesApi.js), [src/services/domiciliosApi.js](src/services/domiciliosApi.js), [src/services/http.js](src/services/http.js)
-- Stores: [src/stores/clientesStore.js](src/stores/clientesStore.js), [src/stores/domiciliosStore.js](src/stores/domiciliosStore.js)
-- Estilos globales: [src/style.css](src/style.css)
+- Entrada: ***src/main.js***
+- App root: ***src/App.vue***
+- Rutas: ***src/router.js***
+- Vistas: ***src/views/ClientesView.vue***
+- Componentes: ***src/components/DomicilioPanel.vue***, ***src/components/HelloWorld.vue***
+- Servicios API: ***src/services/clientesApi.js***, ***src/services/domiciliosApi.js***, ***src/services/http.js***
+- Stores: ***src/stores/clientesStore.js***, ***src/stores/domiciliosStore.js***
+- Estilos globales: ***src/style.css***
 
 ## Integración opcional: PrimeVue
 Para añadir PrimeVue (componentes UI):
