@@ -1,12 +1,11 @@
 # Informe sobre Formularios (.frm) y Módulos (.bas) del ERP MG
 
-El repositorio **MG** contiene un voluminoso código fuente de
-Visual Basic 6 (VB6) que implementa un ERP completo. Además de las
-clases de negocio analizadas previamente, el proyecto incorpora
+El sistema **MG** contiene un voluminoso código fuente de
+Visual Basic 6 (VB6) que implementa un ERP completo. Además de los
+módulos de clases de negocio, el proyecto incorpora
 numerosos **formularios** (archivos `.frm` acompañados por sus binarios
 `.frx`) y **módulos** (`.bas`) que estructuran la interfaz de usuario y
-la lógica procedimental del sistema. La siguiente síntesis se basa en la
-inspección del repositorio (carpeta raíz y subcarpetas) y agrupa los
+la lógica procedimental del sistema. La siguiente síntesis agrupa los
 formularios y módulos por temática.
 
 ## Módulos VB6 principales (.bas)

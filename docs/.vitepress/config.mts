@@ -21,6 +21,8 @@ export default defineConfig({
 		      { text: 'Lógica Negocio', link: '/guia/negocio' },
 		      { text: 'Módulo Clientes', link: '/guia/clientes' },
           { text: 'Propuesta de Migración', link: '/guia/migracion' },
+          { text: 'Cliente Frontend', link: '/guia/frontend'},
+          { text: 'Servidor Backend', link: '/guia/backend'},
         ] }
       ]
     },

@@ -2,7 +2,7 @@
 
 ## Descripción general
 
-El archivo `democc.sql` contiene la definición de más de 400 tablas que
+El sistema **MG** contiene más de 400 tablas que
 dan soporte a todas las áreas del ERP. Las tablas están declaradas con
 el motor **InnoDB** y charset `latin1`. A continuación se destacan los
 módulos principales y las tablas que los componen.
