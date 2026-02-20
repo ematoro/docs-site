@@ -24,6 +24,7 @@ export default defineConfig({
           { text: 'POC Cliente Frontend', link: '/guia/frontend'},
           { text: 'POC Servidor Backend', link: '/guia/backend'},
           { text: 'POC Catálogos', link: '/guia/catalogos'},
+          { text: 'Módulo Ventas', link: '/guia/ventas' },
         ] }
       ]
     },
